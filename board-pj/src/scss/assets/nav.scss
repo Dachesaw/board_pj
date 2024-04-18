@@ -1,0 +1,29 @@
+@import "components/variables.scss";
+
+
+
+nav {
+    width: 100%;
+    background: $nav-color;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+    ul {
+        display: flex;
+        gap: 2.5em;
+        flex-direction: row;
+        align-items: center;        
+        
+        li a {
+            color: $white-1; 
+            display: flex;
+            align-items: center;
+            gap: 0.5em;
+        }
+
+        li a span:hover {
+            text-decoration:underline;
+        }
+    }
+}
